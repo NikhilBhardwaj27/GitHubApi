@@ -1,0 +1,91 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* .container {
+  margin: 50px;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 30px;
+  min-height: 10px;
+  box-shadow: 4px 1px 3px 1px; }*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  background: #fff;
+  padding: 2rem;
+  min-width: 900px;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.12);
+  margin: 0px 160px 160px 160px;
+}
+.content {
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 40px;
+}
+.error {
+  color: #ff5a5f;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 60px;
+}
+
+.image {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  display: flex;
+  width: 200px;
+  height: 200px;
+  align-items: flex-start;
+}
+
+img {
+  border-radius: 50%;
+  border: 2px solid #141414;
+}
+
+.inputField {
+  border: 1.2px solid #141414;
+  background: #fff;
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 10px;
+  outline: none;
+  border-radius: 2px;
+}
+
+::placeholder {
+  font-size: 1.2rem;
+  font-family: "Brandon Grotesque";
+}
+
+.button {
+  background: #fff;
+  border: 1.2px solid #141414;
+  padding: 15px 25px;
+  border-radius: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.button:hover {
+  background: #141414;
+  color: #fff;
+}
